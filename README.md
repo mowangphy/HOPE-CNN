@@ -1,4 +1,4 @@
-# HOPE-CNN-
+# HOPE-CNN
 Using HOPE model to train CNNs
 Without data augmentation: 7.57% error rate on the validation set
 
