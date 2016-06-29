@@ -16,8 +16,8 @@ If you hope to use this code, please cite:
   
   }
 
-
 Based on MatConvNet
+
 **MatConvNet** is a MATLAB toolbox implementing *Convolutional Neural
 Networks* (CNNs) for computer vision applications. It is simple,
 efficient, and can run and learn state-of-the-art CNNs. Several
