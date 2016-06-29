@@ -3,6 +3,7 @@ Using HOPE model to train CNNs
 Without data augmentation: 7.57% error rate on the validation set
 
 If you hope to use this code, please cite:
+
 @article{pan2016learning,
   title={Learning Convolutional Neural Networks using Hybrid Orthogonal Projection and Estimation},
   author={Pan, Hengyue and Jiang, Hui},
