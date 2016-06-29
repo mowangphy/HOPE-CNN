@@ -1,6 +1,6 @@
 # HOPE-CNN
 Using HOPE model to train CNNs
-Without data augmentation: 7.57% error rate on the validation set (HOPE-Input + HOPE-Pooling)
+Without data augmentation: 7.57% error rate on the cifar-10 validation set and 29.80% error rate on the cifar-100 validation set (HOPE-Input + HOPE-Pooling)
 
 If you hope to use this code, please cite:
 
