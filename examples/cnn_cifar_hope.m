@@ -1,7 +1,9 @@
 function [net, info] = cnn_cifar_hope(varargin)
 %  ------------  CNN Cifar-10 ------------------------
+%  iFLYTEK Laboratory for Neural Computing and Machine Learning (iNCML) @ York University
+%  (https://wiki.eecs.yorku.ca/lab/MLL/start)
 %  Based on MatconvNet (http://www.vlfeat.org/matconvnet/)
-%  Coding by: Hengyue Pan, York University, Toronto
+%  Coding by: Hengyue Pan (panhy@cse.yorku.ca), York University, Toronto
 %
 %  If you hope to use this code, please cite:
 % @article{pan2016learning,
@@ -10,6 +12,7 @@ function [net, info] = cnn_cifar_hope(varargin)
 %  journal={arXiv preprint arXiv:1606.05929},
 %  year={2016}
 %  }
+%  License: MIT License
 %
 %  Using HOPE model to improve the CNN performance
 %  Without data augmentation: 7.57% error rate on the validation set
