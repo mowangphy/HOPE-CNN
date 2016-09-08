@@ -8,7 +8,6 @@ wdr = [1 0];
 lr_bnorm = [1 1]
 wdr_bnorm = [0, 0]
 epsilon = 1e-3
-isHOPEBN = 0
 
 
 net.layers = {} ;
@@ -28,14 +27,6 @@ net.layers{end}.H = H;
 net.layers{end}.W = W;
 net.layers{end}.C_in = C_in;
 net.layers{end}.C_out = C_out;
-
-if (isHOPEBN)
-	net.layers{end+1} = struct('type', 'bnorm', ...
-                           'weights', {{ones(24, 1, 'single'), zeros(24, 1, 'single')}}, ...
-                           'learningRate', lr_bnorm, ...
-                           'weightDecay', wdr_bnorm, ...
-						   'Epsilon', epsilon) ;
-end
 
 % Block 1 (Single-HOPE-Block)
 net.layers{end+1} = struct('type', 'conv', ...
