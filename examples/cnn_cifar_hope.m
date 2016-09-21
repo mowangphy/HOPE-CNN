@@ -15,7 +15,7 @@ function [net, info] = cnn_cifar_hope(varargin)
 %  License: MIT License
 %
 %  Using HOPE model to improve the CNN performance
-%  Without data augmentation: 7.57% error rate on the validation set
+%  Without data augmentation: 7.44% error rate on the validation set
 
 run(fullfile(fileparts(mfilename('fullpath')), '../matlab/vl_setupnn.m')) ;
 
