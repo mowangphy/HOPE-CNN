@@ -1,8 +1,10 @@
 # HOPE-CNN
 Using HOPE model to train CNNs
-Without data augmentation: 7.44% error rate on the cifar-10 validation set and 29.80% error rate on the cifar-100 validation set (Single-HOPE-Block)
+Without data augmentation: 7.06% error rate on the cifar-10 validation set and 29.47% error rate on the cifar-100 validation set (Single-HOPE-Block)
 
-With data augmentation (rotation+translation+scale+cololr casting): 6.05% error rate on the cifar-10 validation set and 27.13% error rate on the cifar-100 validation set (Single-HOPE-Block).
+With data augmentation (rotation+translation+scale+cololr casting): 5.89% error rate on the cifar-10 validation set and 26.99% error rate on the cifar-100 validation set (Single-HOPE-Block).
+
+The paper has been accepted by ACML 2017.
 
 If you hope to use this code, please cite:
 
